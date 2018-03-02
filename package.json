@@ -1,15 +1,14 @@
 {
   "name": "functional-utils",
-  "version": "0.0.1",
-  "main": "index.js",
+  "version": "0.2.1",
+  "main": "lib/index.js",
   "repository": "git@github.com:johnnynotsolucky/fu.git",
   "author": "Tyrone Tudehope",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "mocha --reporter spec --require ./test/index.js --watch src/**/*.test.js",
-    "prettify": "prettier src/**/* --write",
-    "postinstall": "cp -a ./src/ ./"
+    "test": "mocha --reporter spec --require ./test/index.js --watch lib/**/*.test.js",
+    "prettify": "prettier lib/**/* --write"
   },
   "devDependencies": {
     "chai": "^4.1.2",
