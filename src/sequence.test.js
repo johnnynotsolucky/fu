@@ -1,4 +1,4 @@
-import sequence from './sequence'
+const sequence = require('./sequence')
 
 describe('sequence', () => {
   it('accepts an initial function with an arity more than 1', () => {

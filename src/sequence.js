@@ -1,4 +1,4 @@
-import _sequence from './internals/_sequence'
+const _sequence = require('./internals/_sequence')
 
 const sequence = _sequence
-export default sequence
+module.exports = sequence

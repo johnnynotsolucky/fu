@@ -1,4 +1,4 @@
-import notEquals from './notEquals'
+const notEquals = require('./notEquals')
 
 describe('notEquals', () => {
   it('evaluates to true for different arguments', () => {

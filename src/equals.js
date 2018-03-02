@@ -1,4 +1,4 @@
-import _equals from './internals/_equals'
+const _equals = require('./internals/_equals')
 
 const equals = _equals
-export default equals
+module.exports = equals

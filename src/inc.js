@@ -1,3 +1,3 @@
 const inc = x => x + 1
 
-export default inc
+module.exports = inc

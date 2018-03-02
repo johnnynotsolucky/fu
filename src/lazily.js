@@ -1,4 +1,4 @@
-import _lazily from './internals/_lazily'
+const _lazily = require('./internals/_lazily')
 
 const lazily = _lazily
-export default lazily
+module.exports = lazily

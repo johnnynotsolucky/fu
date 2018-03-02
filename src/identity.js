@@ -1,3 +1,3 @@
 const identity = x => x
 
-export default identity
+module.exports = identity

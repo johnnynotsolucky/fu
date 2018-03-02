@@ -3,4 +3,4 @@ const _ifElse = (condition, whenTrue, whenFalse) => {
     condition(...args) ? whenTrue(...args) : whenFalse(...args)
 }
 
-export default _ifElse
+module.exports = _ifElse

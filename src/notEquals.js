@@ -1,3 +1,3 @@
 const not = y => x => x !== y
 
-export default not
+module.exports = not

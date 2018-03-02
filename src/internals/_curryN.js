@@ -5,4 +5,4 @@ const _curryN = (n, applied, f) => {
   }
 }
 
-export default _curryN
+module.exports = _curryN

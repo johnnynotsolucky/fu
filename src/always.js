@@ -1,5 +1,5 @@
-import _lazily from './internals/_lazily'
-import identity from './identity'
+const _lazily = require('./internals/_lazily')
+const identity = require('./identity')
 
 const always = _lazily(identity)
-export default always
+module.exports = always

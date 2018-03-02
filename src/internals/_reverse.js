@@ -1,5 +1,5 @@
-import _sequence from './_sequence'
-import _is from './_is'
+const _sequence = require('./_sequence')
+const _is = require('./_is')
 
 const _reverse = x => {
   return _is(String, x)
@@ -10,4 +10,4 @@ const _reverse = x => {
     : arr.reverse()
 }
 
-export default _reverse
+module.exports = _reverse

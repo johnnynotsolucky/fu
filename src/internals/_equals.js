@@ -1,3 +1,3 @@
 const _equals = y => x => x === y
 
-export default _equals
+module.exports = _equals

@@ -3,4 +3,4 @@ const _is = (ctor, x) => {
   return (isValid(x) && x.constructor === ctor) || x instanceof ctor
 }
 
-export default _is
+module.exports = _is

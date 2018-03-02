@@ -1,5 +1,5 @@
-import _lazily from './_lazily'
-import _equals from './_equals'
+const _lazily = require('./_lazily')
+const _equals = require('./_equals')
 
 const _sequence = (...operations) => {
   const lazyEqualsZero = _lazily(_equals(0))
@@ -9,4 +9,4 @@ const _sequence = (...operations) => {
   return (...o) => operations.reduce(apply, o)
 }
 
-export default _sequence
+module.exports = _sequence

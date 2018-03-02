@@ -1,3 +1,3 @@
 const split = separator => str => str.split(separator)
 
-export default split
+module.exports = split

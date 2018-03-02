@@ -1,4 +1,4 @@
-import _has from './_has'
+const _has = require('./_has')
 
 const _memoizeWith = (hashF, f) => {
   const cache = {}
@@ -8,4 +8,4 @@ const _memoizeWith = (hashF, f) => {
   }
 }
 
-export default _memoizeWith
+module.exports = _memoizeWith

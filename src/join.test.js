@@ -1,4 +1,4 @@
-import join from './join'
+const join = require('./join')
 
 describe('join', () => {
   it('joins an array with a separator', () => {
