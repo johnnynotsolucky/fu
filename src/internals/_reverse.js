@@ -3,7 +3,10 @@ import _is from './_is'
 
 const _reverse = x => {
   return _is(String, x)
-    ? x.split('').reverse().join('')
+    ? x
+        .split('')
+        .reverse()
+        .join('')
     : arr.reverse()
 }
 
